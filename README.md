@@ -15,13 +15,13 @@ solutions (in order to mark them).
 2. Make sure `gpg2` is in your *PATH*
 3. Import the [assignments.pub_key][key]
     
-    gpg2 --import assignments.pub_key
+        gpg2 --import assignments.pub_key
 
 [key]: https://raw.githubusercontent.com/dtrendafilov/HPC_FMI_2016_Assignments/master/assignments.pub_key
 
 4. Trust the key
 
-    gpg2 --edit-key trendafilov.dn+hpc2016@gmail.com
+        gpg2 --edit-key trendafilov.dn+hpc2016@gmail.com
 
     At the command prompt enter `trust` and when prompted enter `5`. Detailed
     instructions are available [here][t]
@@ -47,17 +47,17 @@ source files are *git-ignored* in the repo.
 
 2. Create your solution
 
-    gvim data/0/SampleStudent/solution.cpp
+        gvim data/0/SampleStudent/solution.cpp
 
 3. Encrypt your solution
 
-    gpg2 -a -r trendafilov.dn+hpc2016@gmail.com data/0/SampleStudent/solution.cpp
+        gpg2 -a -r trendafilov.dn+hpc2016@gmail.com data/0/SampleStudent/solution.cpp
 
     You can use the `encrypt.sh` and `encrypt.bat` files.
 
 4. Commit and push your **encrypted** solution
 
-    git add data/0/SampleStudent/solution.cpp.asc
-    git commit -m "SampleStudent's solution of assignement 0"
-    git push
+        git add data/0/SampleStudent/solution.cpp.asc
+        git commit -m "SampleStudent's solution of assignement 0"
+        git push
 
