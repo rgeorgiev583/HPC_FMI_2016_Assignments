@@ -15,3 +15,6 @@
 *.obj
 *.exe
 *.out
+
+# Encrypted in binary format files
+*.gpg
