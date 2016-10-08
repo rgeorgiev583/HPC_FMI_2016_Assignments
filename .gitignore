@@ -1,0 +1,17 @@
+# Prevent committing clear code by mistake
+*.c
+*.cc
+*.cpp
+*.cxx
+*.h
+*.hh
+*.hpp
+*.hxx
+
+# Temp files
+*.swp
+
+# Artifacts
+*.obj
+*.exe
+*.out
