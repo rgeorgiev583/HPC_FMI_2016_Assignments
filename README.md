@@ -9,7 +9,7 @@ solutions (in order to mark them).
 
 ## Getting Started
 
-0. Clone the repo
+0. Clone the repository in your GitHub account and locally
 1. Install the GNU Privacy Guard from https://www.gnupg.org/download/index.html
    (There are binaries at the bottom of the page).
 2. Make sure `gpg2` is in your *PATH*
@@ -55,9 +55,10 @@ source files are *git-ignored* in the repo.
 
     You can use the `encrypt.sh` and `encrypt.bat` files.
 
-4. Commit and push your **encrypted** solution
+4. Commit and push your **encrypted** solution into your GitHub clone of the repository
 
         git add data/0/SampleStudent/solution.cpp.asc
         git commit -m "SampleStudent's solution of assignement 0"
         git push
 
+5. :exclamation: Make a pull request against the https://github.com/dtrendafilov/HPC_FMI_2016_Assignments repository
