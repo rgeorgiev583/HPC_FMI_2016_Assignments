@@ -51,7 +51,7 @@ source files are *git-ignored* in the repo.
 
 3. Encrypt your solution
 
-        gpg2 -a -r trendafilov.dn+hpc2016@gmail.com data/0/SampleStudent/solution.cpp
+        gpg2 -a -r trendafilov.dn+hpc2016@gmail.com -e data/0/SampleStudent/solution.cpp
 
     You can use the `encrypt.sh` and `encrypt.bat` files.
 
